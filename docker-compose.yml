@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  api-gateway:
+    build:
+      context: .
+      dockerfile: apps/api-gateway/Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - AUTH_SERVICE_HOST=auth-microservice
+      - AUTH_SERVICE_PORT=3001
+    depends_on:
+      - auth-microservice
+    networks:
+      - microservices-network
+
+  auth-microservice:
+    build:
+      context: .
+      dockerfile: apps/auth-microservice/Dockerfile
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=production
+    networks:
+      - microservices-network
+
+networks:
+  microservices-network:
+    driver: bridge 
