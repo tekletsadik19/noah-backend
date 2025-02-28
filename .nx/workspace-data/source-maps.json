@@ -1,0 +1,1100 @@
+{
+  "apps/api-gateway": {
+    "root": [
+      "apps/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.options": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.cache": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.dependsOn": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.inputs": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.outputs": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.executor": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.options.cwd": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.options.args": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.options.command": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.technologies": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.technologies.0": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.description": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.help": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.help.command": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.help.example": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.executor": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.cwd": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.args": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.command": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.technologies": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.technologies.0": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.description": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help.command": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help.example": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build-deps": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build-deps.dependsOn": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "apps/api-gateway/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.lint": [
+      "apps/api-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "apps/api-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "apps/api-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "apps/api-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "apps/api-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "apps/api-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "apps/api-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "apps/api-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.env": [
+      "apps/api-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "apps/api-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "apps/api-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "apps/api-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "apps/api-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "apps/api-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "apps/api-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "apps/api-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.test": [
+      "apps/api-gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options": [
+      "apps/api-gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata": [
+      "apps/api-gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.cache": [
+      "apps/api-gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.inputs": [
+      "apps/api-gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.outputs": [
+      "apps/api-gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.executor": [
+      "apps/api-gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.cwd": [
+      "apps/api-gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.env": [
+      "apps/api-gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.command": [
+      "apps/api-gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies": [
+      "apps/api-gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "apps/api-gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.description": [
+      "apps/api-gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help": [
+      "apps/api-gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.command": [
+      "apps/api-gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.example": [
+      "apps/api-gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "name": [
+      "apps/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "apps/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "apps/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "apps/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "apps/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "apps/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "apps/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "apps/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "apps/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "apps/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "apps/api-gateway/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "apps/auth-microservice": {
+    "root": [
+      "apps/auth-microservice/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/auth-microservice/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.options": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.cache": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.dependsOn": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.inputs": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.outputs": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.executor": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.options.cwd": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.options.args": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.options.command": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.technologies": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.technologies.0": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.description": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.help": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.help.command": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.help.example": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.executor": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.cwd": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.args": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.command": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.technologies": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.technologies.0": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.description": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help.command": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help.example": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build-deps": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build-deps.dependsOn": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "apps/auth-microservice/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.lint": [
+      "apps/auth-microservice/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "apps/auth-microservice/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "apps/auth-microservice/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "apps/auth-microservice/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "apps/auth-microservice/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "apps/auth-microservice/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "apps/auth-microservice/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "apps/auth-microservice/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.env": [
+      "apps/auth-microservice/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "apps/auth-microservice/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "apps/auth-microservice/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "apps/auth-microservice/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "apps/auth-microservice/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "apps/auth-microservice/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "apps/auth-microservice/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "apps/auth-microservice/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.test": [
+      "apps/auth-microservice/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options": [
+      "apps/auth-microservice/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata": [
+      "apps/auth-microservice/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.cache": [
+      "apps/auth-microservice/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.inputs": [
+      "apps/auth-microservice/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.outputs": [
+      "apps/auth-microservice/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.executor": [
+      "apps/auth-microservice/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.cwd": [
+      "apps/auth-microservice/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.env": [
+      "apps/auth-microservice/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.command": [
+      "apps/auth-microservice/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies": [
+      "apps/auth-microservice/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "apps/auth-microservice/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.description": [
+      "apps/auth-microservice/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help": [
+      "apps/auth-microservice/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.command": [
+      "apps/auth-microservice/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.example": [
+      "apps/auth-microservice/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "name": [
+      "apps/auth-microservice/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/auth-microservice/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/auth-microservice/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/auth-microservice/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "apps/auth-microservice/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "apps/auth-microservice/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "apps/auth-microservice/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "apps/auth-microservice/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "apps/auth-microservice/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "apps/auth-microservice/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "apps/auth-microservice/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "apps/auth-microservice/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "apps/auth-microservice/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "apps/auth-microservice/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "apps/api-gateway-e2e": {
+    "root": [
+      "apps/api-gateway-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/api-gateway-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "apps/api-gateway-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "apps/api-gateway-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "apps/api-gateway-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "apps/api-gateway-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "apps/api-gateway-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "apps/api-gateway-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "apps/api-gateway-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "apps/api-gateway-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.env": [
+      "apps/api-gateway-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "apps/api-gateway-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "apps/api-gateway-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "apps/api-gateway-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "apps/api-gateway-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "apps/api-gateway-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "apps/api-gateway-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "apps/api-gateway-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "apps/api-gateway-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/api-gateway-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/api-gateway-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "apps/api-gateway-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.api-gateway": [
+      "apps/api-gateway-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e": [
+      "apps/api-gateway-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.executor": [
+      "apps/api-gateway-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.outputs": [
+      "apps/api-gateway-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.options": [
+      "apps/api-gateway-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.dependsOn": [
+      "apps/api-gateway-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.options.jestConfig": [
+      "apps/api-gateway-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.options.passWithNoTests": [
+      "apps/api-gateway-e2e/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "apps/auth-microservice-e2e": {
+    "root": [
+      "apps/auth-microservice-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/auth-microservice-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "apps/auth-microservice-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "apps/auth-microservice-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "apps/auth-microservice-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "apps/auth-microservice-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "apps/auth-microservice-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "apps/auth-microservice-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "apps/auth-microservice-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "apps/auth-microservice-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.env": [
+      "apps/auth-microservice-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "apps/auth-microservice-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "apps/auth-microservice-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "apps/auth-microservice-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "apps/auth-microservice-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "apps/auth-microservice-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "apps/auth-microservice-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "apps/auth-microservice-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "apps/auth-microservice-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/auth-microservice-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/auth-microservice-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "apps/auth-microservice-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.auth-microservice": [
+      "apps/auth-microservice-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e": [
+      "apps/auth-microservice-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.executor": [
+      "apps/auth-microservice-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.outputs": [
+      "apps/auth-microservice-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.options": [
+      "apps/auth-microservice-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.dependsOn": [
+      "apps/auth-microservice-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.options.jestConfig": [
+      "apps/auth-microservice-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.options.passWithNoTests": [
+      "apps/auth-microservice-e2e/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "shared": {
+    "root": [
+      "shared/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "shared/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "shared/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "shared/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "shared/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "shared/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "shared/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "shared/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "shared/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "shared/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.env": [
+      "shared/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "shared/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "shared/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "shared/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "shared/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "shared/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "shared/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "shared/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.test": [
+      "shared/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options": [
+      "shared/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata": [
+      "shared/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.cache": [
+      "shared/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.inputs": [
+      "shared/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.outputs": [
+      "shared/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.executor": [
+      "shared/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.cwd": [
+      "shared/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.env": [
+      "shared/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.command": [
+      "shared/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies": [
+      "shared/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "shared/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.description": [
+      "shared/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help": [
+      "shared/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.command": [
+      "shared/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.example": [
+      "shared/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "name": [
+      "shared/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "shared/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "shared/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "shared/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "shared/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "shared/project.json",
+      "nx/core/project-json"
+    ]
+  }
+}

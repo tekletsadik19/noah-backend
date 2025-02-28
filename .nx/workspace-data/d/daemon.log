@@ -1,0 +1,135 @@
+[NX Daemon Server] - 2025-02-28T05:42:57.083Z - Started listening on: \\.\pipe\nx\C:\Users\tekle\AppData\Local\Temp\3e08fe8eebac05b946a3\d.sock
+[NX Daemon Server] - 2025-02-28T05:42:57.086Z - [WATCHER]: Subscribed to changes within: c:\Users\tekle\Documents\arada-backend (native)
+[NX Daemon Server] - 2025-02-28T05:42:57.091Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-02-28T05:42:57.094Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-02-28T05:42:57.123Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-02-28T05:42:57.124Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-02-28T05:42:57.124Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-02-28T05:42:57.127Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-02-28T05:42:57.563Z - Time taken for 'Load Nx Plugin: c:\Users\tekle\Documents\arada-backend\node_modules\nx\src\plugins\package-json' 430.2487ms
+[NX Daemon Server] - 2025-02-28T05:42:57.585Z - Time taken for 'Load Nx Plugin: c:\Users\tekle\Documents\arada-backend\node_modules\nx\src\plugins\project-json\build-nodes\project-json' 452.8481ms
+[NX Daemon Server] - 2025-02-28T05:42:57.586Z - Time taken for 'loadDefaultNxPlugins' 455.1412ms
+[NX Daemon Server] - 2025-02-28T05:42:57.655Z - Time taken for 'Load Nx Plugin: @nx/eslint/plugin' 525.8382ms
+[NX Daemon Server] - 2025-02-28T05:42:57.680Z - Time taken for 'Load Nx Plugin: @nx/jest/plugin' 550.0825ms
+[NX Daemon Server] - 2025-02-28T05:42:57.768Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-02-28T05:42:57.768Z - [REQUEST]: 
+[NX Daemon Server] - 2025-02-28T05:42:57.768Z - [REQUEST]: 
+[NX Daemon Server] - 2025-02-28T05:42:57.788Z - Time taken for 'loadSpecifiedNxPlugins' 639.2463ms
+[NX Daemon Server] - 2025-02-28T05:42:57.789Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-02-28T05:42:57.789Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2025-02-28T05:42:57.790Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-02-28T05:42:57.791Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2025-02-28T05:42:57.794Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-02-28T05:42:57.794Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-02-28T05:42:57.795Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2025-02-28T05:42:57.796Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-02-28T05:42:57.796Z - Handled HASH_GLOB. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2025-02-28T05:42:57.800Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2025-02-28T05:42:57.800Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2025-02-28T05:42:57.801Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2025-02-28T05:42:57.801Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2025-02-28T05:42:57.801Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2025-02-28T05:42:57.802Z - Handled GLOB. Handling time: 1. Response time: 3.
+[NX Daemon Server] - 2025-02-28T05:42:57.805Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-02-28T05:42:57.808Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-02-28T05:42:57.808Z - Handled HASH_GLOB. Handling time: 1. Response time: 3.
+[NX Daemon Server] - 2025-02-28T05:42:58.057Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-02-28T05:42:58.058Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-02-28T05:42:58.058Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+(node:7276) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[NX Daemon Server] - 2025-02-28T05:42:58.674Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-02-28T05:42:58.675Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-02-28T05:42:58.675Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2025-02-28T05:42:58.688Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-02-28T05:42:58.688Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-02-28T05:42:58.688Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2025-02-28T05:42:58.721Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-02-28T05:42:58.722Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-02-28T05:42:58.722Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2025-02-28T05:42:59.432Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-02-28T05:42:59.433Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-02-28T05:42:59.433Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2025-02-28T05:42:59.448Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-02-28T05:42:59.448Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-02-28T05:42:59.448Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2025-02-28T05:42:59.462Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-02-28T05:42:59.463Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-02-28T05:42:59.463Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2025-02-28T05:42:59.478Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-02-28T05:42:59.478Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-02-28T05:42:59.478Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2025-02-28T05:42:59.495Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-02-28T05:42:59.495Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-02-28T05:42:59.495Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2025-02-28T05:42:59.531Z - Time taken for 'build-project-configs' 1739.0054ms
+[NX Daemon Server] - 2025-02-28T05:42:59.621Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-02-28T05:42:59.622Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-02-28T05:42:59.622Z - Time taken for 'total for creating and serializing project graph' 2494.6644ms
+[NX Daemon Server] - 2025-02-28T05:42:59.624Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-02-28T05:42:59.624Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2495. Response time: 2.
+[NX Daemon Server] - 2025-02-28T05:42:59.628Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+Error: Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+    at handleMessage (c:\Users\tekle\Documents\arada-backend\node_modules\nx\src\daemon\server\server.js:178:104)
+    at c:\Users\tekle\Documents\arada-backend\node_modules\nx\src\daemon\server\server.js:74:15
+    at Socket.<anonymous> (c:\Users\tekle\Documents\arada-backend\node_modules\nx\src\utils\consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[NX Daemon Server] - 2025-02-28T05:42:59.629Z - Done responding to the client null
+[NX Daemon Server] - 2025-02-28T05:43:01.032Z - Established a connection. Number of open connections: 5
+[NX Daemon Server] - 2025-02-28T05:43:01.033Z - Closed a connection. Number of open connections: 4
+[NX Daemon Server] - 2025-02-28T05:43:01.034Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-02-28T05:43:01.035Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-02-28T05:43:01.035Z - Time taken for 'total for creating and serializing project graph' 0.4353000000000975ms
+[NX Daemon Server] - 2025-02-28T05:43:01.036Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-02-28T05:43:01.036Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2025-02-28T05:43:01.039Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+Error: Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+    at handleMessage (c:\Users\tekle\Documents\arada-backend\node_modules\nx\src\daemon\server\server.js:178:104)
+    at c:\Users\tekle\Documents\arada-backend\node_modules\nx\src\daemon\server\server.js:74:15
+    at Socket.<anonymous> (c:\Users\tekle\Documents\arada-backend\node_modules\nx\src\utils\consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[NX Daemon Server] - 2025-02-28T05:43:01.039Z - Done responding to the client null
+[NX Daemon Server] - 2025-02-28T05:43:05.113Z - Established a connection. Number of open connections: 5
+[NX Daemon Server] - 2025-02-28T05:43:05.114Z - Closed a connection. Number of open connections: 4
+[NX Daemon Server] - 2025-02-28T05:43:05.115Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-02-28T05:43:05.115Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-02-28T05:43:05.116Z - Time taken for 'total for creating and serializing project graph' 0.38140000000021246ms
+[NX Daemon Server] - 2025-02-28T05:43:05.116Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-02-28T05:43:05.116Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2025-02-28T05:43:05.119Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+Error: Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+    at handleMessage (c:\Users\tekle\Documents\arada-backend\node_modules\nx\src\daemon\server\server.js:178:104)
+    at c:\Users\tekle\Documents\arada-backend\node_modules\nx\src\daemon\server\server.js:74:15
+    at Socket.<anonymous> (c:\Users\tekle\Documents\arada-backend\node_modules\nx\src\utils\consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[NX Daemon Server] - 2025-02-28T05:43:05.120Z - Done responding to the client null
+[NX Daemon Server] - 2025-02-28T05:43:14.192Z - Established a connection. Number of open connections: 5
+[NX Daemon Server] - 2025-02-28T05:43:14.193Z - Closed a connection. Number of open connections: 4
+[NX Daemon Server] - 2025-02-28T05:43:14.196Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-02-28T05:43:14.197Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-02-28T05:43:14.198Z - Time taken for 'total for creating and serializing project graph' 0.8702000000012049ms
+[NX Daemon Server] - 2025-02-28T05:43:14.198Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-02-28T05:43:14.199Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2025-02-28T05:43:14.208Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+Error: Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+    at handleMessage (c:\Users\tekle\Documents\arada-backend\node_modules\nx\src\daemon\server\server.js:178:104)
+    at c:\Users\tekle\Documents\arada-backend\node_modules\nx\src\daemon\server\server.js:74:15
+    at Socket.<anonymous> (c:\Users\tekle\Documents\arada-backend\node_modules\nx\src\utils\consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[NX Daemon Server] - 2025-02-28T05:43:14.209Z - Done responding to the client null
