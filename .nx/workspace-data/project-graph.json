@@ -784,24 +784,6 @@
         "hash": "sha512-Wx0Kx52hxE7C18hkMEggYlEifqWZtYaRgouJor+WMdPnQyEK13vgEWyVNup7SoeeoLMsr4kf5h6dOW11I15MUA=="
       }
     },
-    "npm:chokidar@4.0.3": {
-      "type": "npm",
-      "name": "npm:chokidar@4.0.3",
-      "data": {
-        "version": "4.0.3",
-        "packageName": "chokidar",
-        "hash": "sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA=="
-      }
-    },
-    "npm:chokidar": {
-      "type": "npm",
-      "name": "npm:chokidar",
-      "data": {
-        "version": "3.6.0",
-        "packageName": "chokidar",
-        "hash": "sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw=="
-      }
-    },
     "npm:jsonc-parser@3.3.1": {
       "type": "npm",
       "name": "npm:jsonc-parser@3.3.1",
@@ -836,24 +818,6 @@
         "version": "2.3.1",
         "packageName": "picomatch",
         "hash": "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA=="
-      }
-    },
-    "npm:readdirp@4.1.2": {
-      "type": "npm",
-      "name": "npm:readdirp@4.1.2",
-      "data": {
-        "version": "4.1.2",
-        "packageName": "readdirp",
-        "hash": "sha512-GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg=="
-      }
-    },
-    "npm:readdirp": {
-      "type": "npm",
-      "name": "npm:readdirp",
-      "data": {
-        "version": "3.6.0",
-        "packageName": "readdirp",
-        "hash": "sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA=="
       }
     },
     "npm:rxjs@7.8.1": {
@@ -4987,6 +4951,15 @@
         "hash": "sha512-kWWXztvZ5SBQV+eRgKFeh8q5sLuZY2+8WUIzlxWVTg+oGwY14qylx1KbKzHd8P6ZYkAg0xyIDU9JMHhyJMZ1jw=="
       }
     },
+    "npm:chokidar": {
+      "type": "npm",
+      "name": "npm:chokidar",
+      "data": {
+        "version": "3.6.0",
+        "packageName": "chokidar",
+        "hash": "sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw=="
+      }
+    },
     "npm:glob-parent@5.1.2": {
       "type": "npm",
       "name": "npm:glob-parent@5.1.2",
@@ -6197,9 +6170,9 @@
       "type": "npm",
       "name": "npm:eslint-config-prettier",
       "data": {
-        "version": "10.0.2",
+        "version": "9.1.0",
         "packageName": "eslint-config-prettier",
-        "hash": "sha512-1105/17ZIMjmCOJOPNfVdbXafLCLj3hPmkmB7dLgt7XsQ/zkxSuDerE/xgO3RxoHysR1N1whmquY0lSn2O0VLg=="
+        "hash": "sha512-NSWl5BFQWEPi1j4TjVNItzYV7dZXZ+wP6I6ZhrBGpChQhZRUaElihE9uRRkcbRnNb76UMKDF3r+WTmNcGPKsqw=="
       }
     },
     "npm:eslint-scope": {
@@ -9694,6 +9667,15 @@
         "hash": "sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA=="
       }
     },
+    "npm:readdirp": {
+      "type": "npm",
+      "name": "npm:readdirp",
+      "data": {
+        "version": "3.6.0",
+        "packageName": "readdirp",
+        "hash": "sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA=="
+      }
+    },
     "npm:rechoir": {
       "type": "npm",
       "name": "npm:rechoir",
@@ -11210,11 +11192,6 @@
     "npm:@angular-devkit/core@19.1.7": [
       {
         "source": "npm:@angular-devkit/core@19.1.7",
-        "target": "npm:chokidar@4.0.3",
-        "type": "static"
-      },
-      {
-        "source": "npm:@angular-devkit/core@19.1.7",
         "target": "npm:ajv@8.17.1",
         "type": "static"
       },
@@ -11270,13 +11247,6 @@
       {
         "source": "npm:ajv-formats@3.0.1",
         "target": "npm:ajv@8.17.1",
-        "type": "static"
-      }
-    ],
-    "npm:chokidar@4.0.3": [
-      {
-        "source": "npm:chokidar@4.0.3",
-        "target": "npm:readdirp@4.1.2",
         "type": "static"
       }
     ],
@@ -15045,6 +15015,11 @@
       {
         "source": "npm:@nx/eslint-plugin",
         "target": "npm:@typescript-eslint/parser",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nx/eslint-plugin",
+        "target": "npm:eslint-config-prettier",
         "type": "static"
       },
       {
@@ -25259,5 +25234,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1740721611807
+  "computedAt": 1740721660654
 }
