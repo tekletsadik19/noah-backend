@@ -31,32 +31,40 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".editorconfig",
-        "hash": "11532813898455409296"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "13404745306227114823"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "4566917484430375526"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "1557723054135746032"
+        "file": "package-lock.json",
+        "hash": "2316557816427558544"
       },
       {
         "file": ".prettierignore",
         "hash": "2687824826588932174"
       },
       {
-        "file": ".prettierrc",
-        "hash": "6820402234827505055"
+        "file": ".gitignore",
+        "hash": "1557723054135746032"
       },
       {
         "file": ".vscode/extensions.json",
         "hash": "60901680939730831"
+      },
+      {
+        "file": "nx.json",
+        "hash": "12895382232420790956"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16525557866487732885"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "7473220183190921152"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "11532813898455409296"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "7544409015863045561"
       },
       {
         "file": "README.md",
@@ -67,28 +75,20 @@
         "hash": "14855150023329857046"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "7544409015863045561"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "7473220183190921152"
-      },
-      {
-        "file": "nx.json",
-        "hash": "12895382232420790956"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "2316557816427558544"
-      },
-      {
         "file": "package.json",
-        "hash": "11064893461678366423"
+        "hash": "13860237124801803627"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "16525557866487732885"
+        "file": ".eslintrc.json",
+        "hash": "4566917484430375526"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "6820402234827505055"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "13404745306227114823"
       }
     ],
     "projectFileMap": {
@@ -269,7 +269,7 @@
         },
         {
           "file": "apps/auth-microservice/Dockerfile",
-          "hash": "729605170917396407"
+          "hash": "4873192889483137237"
         },
         {
           "file": "apps/auth-microservice/jest.config.ts",
