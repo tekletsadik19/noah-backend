@@ -6,6 +6,7 @@
 import { Logger } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
 import { Transport, MicroserviceOptions } from '@nestjs/microservices';
+import { ValidationPipe } from '@nestjs/common';
 
 import { AppModule } from './app/app.module';
 
@@ -20,6 +21,13 @@ async function bootstrap() {
       },
     }
   );
+
+  // Enable validation
+  app.useGlobalPipes(new ValidationPipe({
+    whitelist: true, // Strip properties that don't have decorators
+    transform: true, // Transform payloads to DTO instances
+    forbidNonWhitelisted: true, // Throw errors if non-whitelisted values are provided
+  }));
 
   await app.listen();
 

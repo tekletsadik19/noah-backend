@@ -11,7 +11,15 @@ export class AppController {
 
   @MessagePattern('get_user')
   handleGetUser(user: CreateUserDto) {
-    return this.appService.getUser(user.username);
+    console.log('Received login request for user:', user.username);
+    try {
+      const result = this.appService.getUser(user.username);
+      console.log('Login result:', result);
+      return result;
+    } catch (error) {
+      console.error('Error in handleGetUser:', error);
+      throw error;
+    }
   }
 
   @MessagePattern('create_user')
