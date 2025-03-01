@@ -31,7 +31,7 @@ async function bootstrap() {
 
   await app.listen();
 
-  Logger.log('🚀 Auth microservice is listening');
+  Logger.log('🚀 Auth microservice is listening on port 3001');
 }
 
 bootstrap();

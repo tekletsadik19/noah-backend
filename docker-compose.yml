@@ -15,13 +15,14 @@ services:
       - auth-microservice
     networks:
       - microservices-network
+    restart: unless-stopped
 
   auth-microservice:
     build:
       context: .
       dockerfile: apps/auth-microservice/Dockerfile
-    ports:
-      - "3001:3001"
+    expose:
+      - "3001"  
     environment:
       - NODE_ENV=production
       - MONGODB_URI=mongodb://mongodb:27017/auth
@@ -29,6 +30,7 @@ services:
       - mongodb
     networks:
       - microservices-network
+    restart: unless-stopped
 
   mongodb:
     image: mongo:latest
@@ -38,6 +40,7 @@ services:
       - mongodb_data:/data/db
     networks:
       - microservices-network
+    restart: unless-stopped
 
 volumes:
   mongodb_data:
